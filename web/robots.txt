@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://laitetmiel-vtc.netlify.app/sitemap.xml
+
+# Crawl-delay pour éviter la surcharge
+Crawl-delay: 1
+
+# Interdire l'accès aux fichiers sensibles
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.env
+Disallow: /config/
