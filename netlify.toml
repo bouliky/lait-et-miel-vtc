@@ -3,7 +3,7 @@
   command = "flutter build web --release"
 
 [build.environment]
-  FLUTTER_VERSION = "3.16.0"
+  FLUTTER_VERSION = "3.22.2"
 
 [[redirects]]
   from = "/*"

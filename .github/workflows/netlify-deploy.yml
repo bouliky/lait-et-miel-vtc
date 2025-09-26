@@ -15,7 +15,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.16.0'
+          flutter-version: '3.22.2'
           channel: 'stable'
 
       - name: Flutter pub get
@@ -29,5 +29,6 @@ jobs:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         run: npx --yes netlify-cli deploy --prod --dir=build/web --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
+
 
 
