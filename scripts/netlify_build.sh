@@ -18,7 +18,7 @@ echo "📦 flutter pub get"
 flutter pub get
 
 echo "🏗️  Building Flutter Web (release)"
-flutter build web --release --web-renderer html
+flutter build web --release
 
 echo "✅ Build completed (build/web)"
 
